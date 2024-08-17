@@ -32,14 +32,14 @@ GLuint indices[] =
 	0, 1, 2, // right trianle
 	0, 3, 2 // left triangle
 
-	// 3 ______ 2
-	//	|	  /|
+	//     3 ______ 2
+	//	|     /|
 	//	|    / |
 	//	|   /  |
 	//	|  /   |
-	//	| /	   | 
+	//	| /    | 
 	//	|/_____|
-	//  0      1
+	//     0        1
 };
 
 std::string get_file_contents(const char* filename)
